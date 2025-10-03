@@ -20,17 +20,7 @@ public class NegativeBalanceException extends Exception {
 
 	@Override
 	public String toString() {
-		//stub generated
 		return "Balance of " + negativeBalance + " not allowed.";
 	}
-	
-	public static void main(String[] args) throws NegativeBalanceException, FileNotFoundException {
-		double balance = -1.0;
-		if(balance < 0.0) {
-			throw new NegativeBalanceException();
-		}
-	}
-
-
 	
 }
