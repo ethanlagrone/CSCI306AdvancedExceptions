@@ -1,0 +1,69 @@
+I, Sedona Szczepaniak certify that I participated equitably in the creation of assignment AdvancedExceptions, dated 2025.
+I, Ethan LaGrone, certify that I participated equitably in the creation of this assignment AdvancedExceptions, dated 2025.
+
+
+commit 6523ac3b31e9d13051db981102cbe2e40a27aaf5
+Author: 1123581321345589144233377610987 <swirlthree@gmail.com>
+Date:   Mon Oct 6 13:22:13 2025 -0600
+
+    added good programming practices when dealing with exceptions in answers.txt
+
+commit ad7507a60786b9756f21f32d9daec7c2e2de1503
+Author: 1123581321345589144233377610987 <swirlthree@gmail.com>
+Date:   Mon Oct 6 13:10:00 2025 -0600
+
+    fixed error message to make sense with quickWithdraw, added answers file (will add actual answers soon)
+
+commit 5b62e8c387b7452f55a16c25d64a5bcc19d50ac5
+Author: 1123581321345589144233377610987 <swirlthree@gmail.com>
+Date:   Sun Oct 5 22:18:26 2025 -0600
+
+    fixed some typos, messed around with how FileNotFoundException is handled (may change it back depending on advice of best practices, still need to figure out appropriate message for quickWithDraw's NegativeBalanceException
+
+commit 30b956255dff560a8d3d1c557468dc5df7a1f49a
+Author: 1123581321345589144233377610987 <swirlthree@gmail.com>
+Date:   Sun Oct 5 21:34:38 2025 -0600
+
+    implemented main
+
+commit 695e35b116b78700fe161280024bdfd82da09f58
+Author: 1123581321345589144233377610987 <swirlthree@gmail.com>
+Date:   Sun Oct 5 21:27:11 2025 -0600
+
+    Forgot to add a comment: I implemented handleTransactions in ATM
+
+commit 1b65fa81bb9a11a783b4cab6edae67aaf4ca0f95
+Author: ethanlagrone <ethan_lagrone@mines.edu>
+Date:   Sun Oct 5 18:05:52 2025 -0600
+
+    BankAccount class creation
+
+commit 55ad904ed66797ff9eb983dd3497c910093629ac
+Author: ethanlagrone <ethan_lagrone@mines.edu>
+Date:   Fri Oct 3 13:48:11 2025 -0600
+
+    Added comments
+
+commit 9a7cdf80db52b1017e0efb08d53555a3e9a8d81a
+Author: ethanlagrone <ethan_lagrone@mines.edu>
+Date:   Fri Oct 3 13:46:18 2025 -0600
+
+    Forgot to save, ignore last commit message, and replace it here
+
+commit cd26a74c2e9587c08b45623c1933d21d59614a8e
+Author: ethanlagrone <ethan_lagrone@mines.edu>
+Date:   Fri Oct 3 13:45:04 2025 -0600
+
+    Version 1 of NegativeBalanceException, tested with a main, seems to work
+
+commit e0374ef6b68a80458549550f049253187db522eb
+Author: ethanlagrone <ethan_lagrone@mines.edu>
+Date:   Thu Oct 2 21:31:01 2025 -0600
+
+    Creating stubs
+
+commit 991cf0b1865d5f9b22dccf9b2820119cc434523a
+Author: ethanlagrone <ethan_lagrone@mines.edu>
+Date:   Thu Oct 2 21:22:24 2025 -0600
+
+    First commit
