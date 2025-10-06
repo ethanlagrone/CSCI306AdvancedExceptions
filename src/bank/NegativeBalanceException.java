@@ -22,6 +22,7 @@ public class NegativeBalanceException extends Exception {
 			out.close();
 		}
 		catch(FileNotFoundException e) {
+			//this should never happen in this project
 			System.out.println("Error: There was a problem opening log.txt");
 		}
 	}
@@ -29,7 +30,13 @@ public class NegativeBalanceException extends Exception {
 	@Override
 	public String toString() {
 		//rubric dictated this output format
-		return "Balance of -" + negativeBalance + " not allowed.";
+		//if quickWithdraw used
+		if(negativeBalance==0) {
+			return "Negative balance not allowed.";
+		}
+		else {
+		return "Balance of " + -1*negativeBalance + " not allowed.";
+		}
 	}
 	
 }
