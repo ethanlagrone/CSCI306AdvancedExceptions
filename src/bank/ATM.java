@@ -1,11 +1,11 @@
 package bank;
 
 public class ATM {
-	BankAccount bankacct = new BankAccount(500);//idk what will actually be in this
+	BankAccount bankacct;//idk what will actually be in this
 
-	public ATM(BankAccount bankacct) {
+	public ATM() {
 		super();
-		this.bankacct = bankacct;
+		this.bankacct = new BankAccount(500);
 	}
 	
 	public void handleTransactions() {
@@ -23,11 +23,12 @@ public class ATM {
 			System.out.println(e);
 			System.out.println(e.getMessage());
 		}
-		}
 	}
 	
 	public static void main(String[] args) {
-		//stub
+		ATM atm = new ATM();
+		atm.handleTransactions();
+		
 	}
 	
 }
