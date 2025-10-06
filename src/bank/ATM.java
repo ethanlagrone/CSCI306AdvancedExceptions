@@ -12,14 +12,14 @@ public class ATM {
 		try {
 			bankacct.withdraw(600);
 		}
-		catch(Exception e){
+		catch(NegativeBalanceException e){
 			System.out.println(e);
 			System.out.println(e.getMessage());
 		}
 		try {
 			bankacct.quickWithdraw(600);
 		}
-		catch(Exception e) {
+		catch(NegativeBalanceException e) {
 			System.out.println(e);
 			System.out.println(e.getMessage());
 		}
