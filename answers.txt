@@ -1,0 +1,14 @@
+What are 3 good practices related to exception handling?
+
+1) Always be specific. Don't throw "Exception", don't catch "Exception", and definitely
+don't catch "Throwable".
+
+2) Think through whether you want your custom exceptions to be checked or unchecked.
+Checked exceptions extend Exception and must be handled with try/catch clauses in order 
+for a program to compile. Unchecked exceptions extend RuntimeException and are not 
+handled by try/catch clauses. They usually represent fatal errors that cannot be fixed
+such as NullPointerException. It is important to make thoughtful choices when deciding
+which you want your custom exceptions to be.
+
+3) Don't swallow exceptions. Empty catch blocks or ones that only contain "return null;"
+leave you no way of telling what the original exception was.
